@@ -1,0 +1,55 @@
+,Model,Dataset,Initializer,Validation Accuracy,Test Accuracy,Regression MAE,Test Loss,Epochs
+0,MLP,MNIST,Zero Initialization,0.1135,0.1135,N/A,2.301,23
+1,MLP,MNIST,Random Initialization,0.9789,0.9789,N/A,0.0699,9
+2,MLP,MNIST,Xavier Initialization,0.981,0.981,N/A,0.0675,10
+3,MLP,MNIST,He Initialization,0.9796,0.9787,N/A,0.0666,9
+4,MLP,MNIST,Lecun Initialization,0.9794,0.9794,N/A,0.0717,11
+5,MLP,MNIST,Orthogonal Initialization,0.979,0.9784,N/A,0.073,10
+6,MLP,Fashion-MNIST,Zero Initialization,0.1,0.1,N/A,2.3026,6
+7,MLP,Fashion-MNIST,Random Initialization,0.8911,0.8863,N/A,0.3278,15
+8,MLP,Fashion-MNIST,Xavier Initialization,0.8952,0.8952,N/A,0.3165,19
+9,MLP,Fashion-MNIST,He Initialization,0.8919,0.8919,N/A,0.3212,16
+10,MLP,Fashion-MNIST,Lecun Initialization,0.8917,0.889,N/A,0.3195,15
+11,MLP,Fashion-MNIST,Orthogonal Initialization,0.8903,0.8887,N/A,0.3164,14
+12,MLP,CIFAR-10,Zero Initialization,0.1,0.1,N/A,2.3026,7
+13,MLP,CIFAR-10,Random Initialization,0.5124,0.5097,N/A,1.3954,20
+14,MLP,CIFAR-10,Xavier Initialization,0.5035,0.4969,N/A,1.4163,18
+15,MLP,CIFAR-10,He Initialization,0.5051,0.5051,N/A,1.3942,23
+16,MLP,CIFAR-10,Lecun Initialization,0.5114,0.5089,N/A,1.4026,28
+17,MLP,CIFAR-10,Orthogonal Initialization,0.5056,0.5041,N/A,1.3995,20
+18,MLP,CIFAR-100,Zero Initialization,0.01,0.01,N/A,4.6052,7
+19,MLP,CIFAR-100,Random Initialization,0.2291,0.225,N/A,3.2791,18
+20,MLP,CIFAR-100,Xavier Initialization,0.2266,0.2215,N/A,3.2848,19
+21,MLP,CIFAR-100,He Initialization,0.224,0.224,N/A,3.2947,22
+22,MLP,CIFAR-100,Lecun Initialization,0.22,0.2172,N/A,3.3064,18
+23,MLP,CIFAR-100,Orthogonal Initialization,0.2217,0.2152,N/A,3.3005,19
+24,CNN,MNIST,Zero Initialization,0.1135,0.1135,N/A,2.301,6
+25,CNN,MNIST,Random Initialization,0.9929,0.9928,N/A,0.0221,13
+26,CNN,MNIST,Xavier Initialization,0.9943,0.9943,N/A,0.0208,20
+27,CNN,MNIST,He Initialization,0.9934,0.9934,N/A,0.0236,14
+28,CNN,MNIST,Lecun Initialization,0.9935,0.9931,N/A,0.0214,12
+29,CNN,MNIST,Orthogonal Initialization,0.9935,0.9931,N/A,0.0225,16
+30,CNN,Fashion-MNIST,Zero Initialization,0.1,0.1,N/A,2.3026,6
+31,CNN,Fashion-MNIST,Random Initialization,0.9168,0.9104,N/A,0.243,16
+32,CNN,Fashion-MNIST,Xavier Initialization,0.912,0.9094,N/A,0.2536,13
+33,CNN,Fashion-MNIST,He Initialization,0.9149,0.9116,N/A,0.2508,16
+34,CNN,Fashion-MNIST,Lecun Initialization,0.9161,0.9093,N/A,0.2498,14
+35,CNN,Fashion-MNIST,Orthogonal Initialization,0.9131,0.9093,N/A,0.244,15
+36,CNN,CIFAR-10,Zero Initialization,0.1,0.1,N/A,2.3026,14
+37,CNN,CIFAR-10,Random Initialization,0.7119,0.7119,N/A,0.8482,22
+38,CNN,CIFAR-10,Xavier Initialization,0.7205,0.717,N/A,0.8268,20
+39,CNN,CIFAR-10,He Initialization,0.7158,0.7055,N/A,0.8495,16
+40,CNN,CIFAR-10,Lecun Initialization,0.718,0.7156,N/A,0.8398,19
+41,CNN,CIFAR-10,Orthogonal Initialization,0.7236,0.7171,N/A,0.8392,21
+42,CNN,CIFAR-100,Zero Initialization,0.01,0.01,N/A,4.6052,6
+43,CNN,CIFAR-100,Random Initialization,0.3714,0.3664,N/A,2.5034,25
+44,CNN,CIFAR-100,Xavier Initialization,0.3655,0.3654,N/A,2.5138,28
+45,CNN,CIFAR-100,He Initialization,0.3666,0.3666,N/A,2.5341,23
+46,CNN,CIFAR-100,Lecun Initialization,0.3598,0.3587,N/A,2.536,29
+47,CNN,CIFAR-100,Orthogonal Initialization,0.3729,0.3719,N/A,2.4717,17
+48,Regression,California Housing,Zero Initialization,N/A,N/A,207080.5312,56176668672.0,50
+49,Regression,California Housing,Random Initialization,N/A,N/A,51472.9844,4966854656.0,50
+50,Regression,California Housing,Xavier Initialization,N/A,N/A,50577.8125,4844045312.0,50
+51,Regression,California Housing,He Initialization,N/A,N/A,51037.6016,4911141376.0,50
+52,Regression,California Housing,Lecun Initialization,N/A,N/A,51841.793,5041774592.0,50
+53,Regression,California Housing,Orthogonal Initialization,N/A,N/A,50863.5586,4884531712.0,50
